@@ -4,4 +4,5 @@ let broj = document.querySelector(".broj");
 
 dugme.addEventListener('click', () =>{
    broj.innerHTML =  Math.ceil(Math.random()*26);
+   dugme.innerHTML = 'Stop Game';
 })
