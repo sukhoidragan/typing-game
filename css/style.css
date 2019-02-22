@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(158, 173, 186);
+    height: 30px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+
+}
+.krug {
+    background-color: rgb(145, 160, 174);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    /* margin-left: 5px; */
+    margin:  auto 2px;
+    
+}
+.krug:first-child{
+    margin-left: 8px;
+}
+.all {
+    width: 1200px;
+    margin: auto;
+}
+.nad {
+    display: flex;
+}
+.centar {
+    margin: 25px auto;
+    width: 300px;
+}
+
+.asside {
+    margin-top: 25px;
+    margin-right: 10px;
+    /* padding-right: 10px;     */
+    text-align: right;
+}
+p {
+    margin-bottom: 10px;
+}
+.l {
+    margin-right: 62px; 
+}
+#input {
+    margin-left: 55px;
+    width: 195px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 28px;
+    border-radius: 5px;
+    border: 2px solid rgb(195, 207, 217);
+}
+#dugme {
+    display: block;
+    margin: 28px auto;
+    padding: 6px 10px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(218, 215, 252);
+    border-radius: 5px;
+    color: rgb(104, 92, 245)
+}
+
+.broj{
+    height: 70px;
+    text-align: center;
+    /* width: 70px; */
+    /* background-color: rgb(125, 125, 125); */
+    font-size: 50px;
+    /* display: inline-block; */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto;
+}
+.slovo-broj{
+    color: rgb(141, 155, 166);
+    padding: 23px;
+    font-size: 28px;
+    width: 16%;
+}
